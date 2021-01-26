@@ -1,7 +1,7 @@
 {
-  "name": "github-style",
+  "name": "github-like-stylizer",
   "author": "sitogi",
-  "description": "chrome extension for customize AWS CodeCommit CSS to like GitHub.",
+  "description": "Chrome extension for customize AWS CodeCommit CSS to GitHub like.",
   "version": "1.0.0",
   "manifest_version": 2,
   "web_accessible_resources": ["*"],
