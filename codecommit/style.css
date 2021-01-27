@@ -750,12 +750,6 @@
   margin-bottom: 16px !important;
 }
 
-.dx-Markdown table {
-  display: block !important;
-  width: 100% !important;
-  overflow: auto !important;
-}
-
 .dx-Markdown table th {
   font-weight: 600 !important;
 }
@@ -774,6 +768,24 @@
 .dx-Markdown table tr:nth-child(2n) {
   background-color: #f6f8fa !important;
 }
+
+/* for CodeCommit code block start */
+.dx-Markdown code table td, .dx-Highlighter, .dx-Highlighter__line, .ace_line {
+  background-color: #fafafa !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.dx-Markdown code table tr {
+  background-color: #fafafa !important;
+  border: none !important;
+}
+
+.dx-Markdown code table tr:nth-child(2n) {
+  background-color: #fafafa !important;
+  border: none !important;
+}
+/* for CodeCommit code block end */
 
 .dx-Markdown img {
   max-width: 100% !important;
